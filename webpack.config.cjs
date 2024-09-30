@@ -4,7 +4,7 @@ const path = require("path");
 module.exports = {
   mode: "production",
   entry: {
-    bundle: path.resolve(__dirname, "app.js"),
+    bundle: path.resolve(__dirname, "index.js"),
   },
   output: {
     path: path.resolve(__dirname, "build"),
