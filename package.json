@@ -8,6 +8,7 @@
     "build": "npx webpack",
     "start": "node index.js"
   },
+  "heroku-run-build-script": true,
   "author": "",
   "license": "ISC",
   "dependencies": {
