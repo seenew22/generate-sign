@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 const { createStamp } = signGenerator;
 
 const app = express();
-const port = 3010;
+// const port = 3010;
 
 app.use(cors());
 
@@ -38,6 +38,6 @@ app.get("/api/sign/:text", async (req, res) => {
   }
 });
 
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
-});
+// app.listen(port, () => {
+//   console.log(`Server is running on http://localhost:${port}`);
+// });
